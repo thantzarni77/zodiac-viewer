@@ -50,7 +50,7 @@ const ZodiacResult = () => {
           <div className="my-4 flex w-full items-center justify-center gap-20 rounded-lg bg-[#3d4b5f] bg-opacity-30 p-4 backdrop-blur">
             <div>
               <img
-                src={`../../src/assets/${result?.ZodiacSignImageUrl}`}
+                src={`../../public/${result?.ZodiacSignImageUrl}`}
                 alt={result?.Name}
                 className="w-[100%]"
               />
@@ -76,7 +76,7 @@ const ZodiacResult = () => {
           <div className="flex w-full flex-col items-center lg:flex-row lg:justify-between">
             <div>
               <img
-                src={`../../src/assets/${result?.ZodiacSign2ImageUrl}`}
+                src={`../../public/${result?.ZodiacSign2ImageUrl}`}
                 alt={result?.Name}
                 className="w-full rounded-md"
               />
@@ -97,7 +97,7 @@ const ZodiacResult = () => {
             </div>
             <div>
               <img
-                src={`../../src/assets/${result?.ElementImageUrl}`}
+                src={`../../public/${result?.ElementImageUrl}`}
                 alt={result?.Name}
                 className="my-7 h-fit w-full rounded-lg"
               />
@@ -118,7 +118,7 @@ const ZodiacResult = () => {
             <div className="items-center lg:flex lg:w-[100%]">
               <div className="w-full">
                 <img
-                  src={`../../src/assets/images/representative-flower/${result?.Id}.jpg`}
+                  src={`../../public/images/representative-flower/${result?.Id}.jpg`}
                   alt="representative-flower"
                   className="mx-auto my-2 h-fit w-[80%] rounded-lg lg:w-1/3"
                 />
