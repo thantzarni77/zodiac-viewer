@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MM Six";
+  src:
+    local("MM Six"),
+    url(./fonts/Myanmar_Six.ttf) format("truetype");
+}
+
+html,
+body {
+  font-family:
+    MM Six,
+    serif;
+  height: 100%;
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://wallpapers.com/images/hd/libra-zodiac-constellation-5cfth6at5dx6ju8l.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+.percentage {
+  animation: slide 1s;
+}
